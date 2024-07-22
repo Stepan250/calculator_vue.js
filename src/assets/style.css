@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Montserrat, sans-serif;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: #343434;
+    width: 250px;
+    height: 40px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+}
+.button {
+    border: none;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #E3E3E3;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #cccccc;
+}
+.zero {
+    grid-column: span 2;
+    width: auto;
+    text-align: start;
+    padding-left: 25px;
+}
+.operators {
+    background-color: #ffa400;
+    font-weight: bold;
+}
+.operators:hover {
+    background-color: #f19800;
+}
+.result {
+    word-break: break-all;
+    height: 120px;
+}
+.resultP {
+    text-align: start;
+    font-size: 25px;
+    border-top: 1px solid black;
+    padding: 10px 0 30px;
+}
+.input {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 150px;
+    word-break: break-all;
+}
+.inputP {
+    display: flex;
+    justify-content: end;
+    font-size: 50px;
+    padding-right: 15px;
+    margin: 10px 0 10px;
+}
+.historyBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 30px;
+}
+.historyLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1D6AFF;
+    background: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.historyLinkPage {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.historyPage {
+    width: 350px;
+    height: 712px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    overflow: auto;
+}
+.historyEntry {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d5d5d5;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.date {
+    font-size: 14px;
+    color: #d5d5d5;
+}
+.orange {
+    color: #FF9900;
+}
