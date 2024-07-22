@@ -1,1 +1,1 @@
-# calculator-vue.js-
+Simple calculator with interactive buttons and history
